@@ -1,3 +1,3 @@
-ID;Title;Description
-00000001-0000-0000-0000-000000000001;Testrezept;Dies ist eine Beschreibung
-00000001-0000-0000-0000-000000000002;Zweites Rezept;Hier ist ein weiteres Rezept
+ID;Title;Description;Difficulty;DurationMinutes;Portions;Author_Email
+00000001-0000-0000-0000-000000000001;Testrezept;Dies ist eine Beschreibung;1;10;2;"test@recipeheroes.com"
+00000001-0000-0000-0000-000000000002;Zweites Rezept;Hier ist ein weiteres Rezept;2;60;1;"test@recipeheroes.com"
