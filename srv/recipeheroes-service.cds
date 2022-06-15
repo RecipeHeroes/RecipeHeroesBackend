@@ -15,5 +15,12 @@ service RecipeHeroesService {
     entity RecipeCookbook as projection on recipeheroes.RecipeCookbook;
     entity CookbookMember as projection on recipeheroes.CookbookMember;
 
-    
+    type response {
+        type: String enum { succeeded; failed; };
+        message: String;
+    }
+
+    action Like (Recipe_ID:String, Member_Email:String) returns response;
+    action Subscribe (Recipe_ID:String, Member_Email:String) returns response;
+
 }
