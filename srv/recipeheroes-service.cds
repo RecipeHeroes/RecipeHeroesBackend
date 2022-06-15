@@ -6,6 +6,14 @@ service RecipeHeroesService {
     entity Member as projection on recipeheroes.Member;
     entity RecipeMember as projection on recipeheroes.RecipeMember;
     entity Tag as projection on recipeheroes.Tag;
+    entity RecipeTag as projection on recipeheroes.RecipeTag;
+    entity CookbookTag as projection on recipeheroes.CookbookTag;
     entity Incredient as projection on recipeheroes.Incredient;
+    entity RecipeIncredient as projection on recipeheroes.RecipeIncredient;
+    entity Attachment as projection on recipeheroes.Attachment;
     entity Cookbook as projection on recipeheroes.Cookbook
+    entity RecipeCookbook as projection on recipeheroes.RecipeCookbook;
+    entity CookbookMember as projection on recipeheroes.CookbookMember;
+
+    
 }

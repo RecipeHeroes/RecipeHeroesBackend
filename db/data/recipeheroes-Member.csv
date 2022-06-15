@@ -1,2 +1,7 @@
 Email;Username;LoginTimestamp;RegisterTimestamp;IsModerator;Password
 "test@recipeheroes.com";"Admin";"2022-05-20 14:00";"2022-01-01 14:00";true;"geheim123"
+"max@example.com";"Max Mustermann";"2022-05-20 14:00";"2022-02-01 14:00";false;"hash123"
+"yamato@example.com";"Yamato Nakamura";"2022-05-20 14:00";"2022-02-01 14:00";false;"hash123"
+"john@example.com";"John Washington";"2022-05-20 14:00";"2022-02-01 14:00";false;"hash123
+"mehmet@example.com";"Mehmet Falanfilan";"2022-05-20 14:00";"2022-02-01 14:00";false;"hash123
+"olga@example.com";"Olga Ivanova";"2022-05-20 14:00";"2022-02-01 14:00";false;"hash123

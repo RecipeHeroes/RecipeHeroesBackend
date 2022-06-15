@@ -44,7 +44,7 @@ entity Member {
 entity RecipeMember {
     key ID : UUID;
     Recipe: Association to Recipe;
-    Subscriber: Association to Member;
+    Author: Association to Member;
     Timestamp: Timestamp default $now;
     Type: Integer enum {
         like = 1;
