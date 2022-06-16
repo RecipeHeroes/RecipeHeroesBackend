@@ -1,5 +1,11 @@
 namespace recipeheroes;
 
+
+/*
+In dieser Datei werden die Service Definitionen entsprechend dem ER Modell
+bestimmt. Es werden Assoziationen, Compositionen, Standartwerte und Typen definiert.
+*/
+
 entity Recipe {
     key ID: UUID;
     Title : String;

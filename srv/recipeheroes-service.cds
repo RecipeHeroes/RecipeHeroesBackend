@@ -1,5 +1,14 @@
 using recipeheroes from '../db/recipeheroes';
 
+/*
+Dies ist unser Service, der später veröffentlicht wird. Die Zeilen bis
+12 zeigen veröffentlichen die in der Datenbank-Definition bestimmten
+Entitäten im "RecipeHeroesService".
+Es wird zusätzlich ein "struct" namens "response" erstellt. zusätzlich
+werden zwei Actions veröffentlicht, die in der Service Implementierung
+in der Datei "recipeheroes-service.js" näher bestimmt werden.
+*/
+
 service RecipeHeroesService {
     entity Recipe as projection on recipeheroes.Recipe;
     entity Rating as projection on recipeheroes.Rating;
